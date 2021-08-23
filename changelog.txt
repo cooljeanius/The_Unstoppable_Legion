@@ -1,0 +1,75 @@
+CHANGELOG
+
+0.8.0:
+
+* Ported The Unstoppable Legion from the old dormant version for Wesnoth 1.4, and added the first 8 scenarios (6 playable and 2 narrative) through one of the branches.
+
+0.8.1:
+
+* Added the second branch in scenarios 5-6.
+
+0.8.2:
+
+* Added the third branch in scenarios 5-6.
+
+0.8.3:
+
+* Added scenarios 9-11.
+* Gave new AMLAs to Lancers and Cataphracts.
+
+0.8.4:
+
+* Added scenarios 12-13.
+* Fixed a number of issues regarding unit advancements.
+* Substantial re-balancing of scenarios 3 (A Test of Valour), 10 (The Mines of Alsok - felt to be too hard), and 11 (Prejudice and Pride - also too hard).
+
+0.8.5:
+
+* Added scenarios 14-15.
+
+0.8.6:
+
+* Added sceanrio 16.
+* Increased turn limit in scenario 14b to allow sensible amount of gold to win next scenario.
+
+0.8.7:
+
+* Added scenario 17 and narrative scenario 18.
+
+0.8.8:
+
+Substantial refining and rebalancing of game so far including:
+
+* Outlaws in scenario 1 and peasents in scenario 15 now have the new "fortified" trait, which increases defences but removes movement allowance.
+* Added some woods in scenario 2 so that you can made better use of Owayn and Dueterus.
+* Overhauled AI in scenario 3 so that General Karak takes part insome fighting without doing anything suicidal.
+* In narrative scenario 8, options for splitting gold affected by which branch you took (so default = more gold for dwarves if travelled by land, more for riders if travelled by cave - this is to compensate for lack of XP-gaining opportunities)
+* Changed method that daemons appear in scenarios 9 and 10 to be more evenly distributed.
+* Changed map in scenario 11 to make Bhargeest harder to kill.
+* Fixed bug in scenario 13 that caused Deuterus to do suicidal things prematurely.
+* Changed enemy line-up in scenario 14a so that friendly orcs start under attack.
+* Increased size of map in scenario 15 to give you more time to catch up with fleeing units.
+* Added footprints to scenario 17, and added a time-limit to prevent gold-milking.
+* Added full trails to all maps.
+* Heroes now have suitably-sized images, although anyone who wants to draw better images will be most welcome.
+* Viktor and Deuterus now mount and dismount using the [transform_unit] tag, which should hopefully iron out a lot of the errors.
+
+0.8.9:
+
+* Add scenario 19a. This is activated if you went via scenario 14a.
+* If you went via 14b, the game still stops at scenario 18 for now.
+
+0.8.10:
+
+* Add scenario 20, after 19a.
+* If you went via 14b, the game still stops at scenario 18 for now.
+* Fixed a bug in scenario 13 that prevents a proper recall in scenario 20.
+* Workaround also in place in scneario 20 for anyone who played beyond scenario 13 before the fix.
+
+0.8.11:
+
+* Add scenario 19b.
+* This means that both paths go as far as scneario 20 now.
+* Fixed a bug in scenario 14b that caused the elvish allies to be deleted at the end of the scenario.
+* Gave Eridith an intelligence trait to make it easier to level her up.
+

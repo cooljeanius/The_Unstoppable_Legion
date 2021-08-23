@@ -1,0 +1,157 @@
+The Unstoppable Legion:
+
+Yet another campaign that involves saving the world, with every chiche I can lay my hands on for the storyline, as these are the best.
+
+Many thanks to contributors for Extended Era and Imperial Era, whose images I've nicked and whose units I've derived from.
+
+v 0.1.0: First three scenarios, introducing a bowrider line up to level 2, and dark fighters, dark cultists and dark riders, mounted noble line (Viktor) and Great Druid (Deuterus).
+
+v 0.2.0: Fourth and fifth scenario added.
+	Numerous AI, balancing and gameplay adjustments to "A Test of Valour" and "The Front Line".
+	New units: Mounted Lord (level 3 Viktor), Dwarf Prince (for Prince Sven), Dark Warrior.
+	Deuterus switches between mounted and on foot on certain scenarios.
+	And numerous little bugfixes and balancing changes.
+
+v 0.3.0: Two alternative fourth scenarios and sixth scenario added.
+	Fifth scenrio different depending on which scenario you come from.
+	New units: Dark Marauder, Dark Soulhunter (Dark Cultist line), Dark Champion (level 3 Dark Fighter line), Dismounted Noble/Commander/Lord (Viktor on foot in caves/mountains).
+	Hero and character markers introduced.
+	Now command some outlaws in first scenario who stay with you for next two if they survive.
+	Death meesages moved into deaths.cfg file.
+	Introduced wesnoth-3, wesnoth-4, victory and defeat music into game.
+	Strength potion added to original fourth scenario.
+	Dark riders now have dark rider images and no longer borrow dragoons' images.
+	Starting time of day now not always dawn.
+	And the usual bug-fixing and balancing.
+
+v 0.4.0: Seventh, eight and ninth scenario added.
+	Portraits added for major characters.
+	Images for bowrider line updated.
+	Help boxes added on early scenarios on EASY.
+	New units: Holibar & Gendarme (alternate advancement from cavalryman), Cataphract (another alternate advancement from Cavalryman), Mounted Marksman (alternate advancement from Bowknight), Dwarvish Battle Prince (level 3 advancement from Dwarvish Prince), Daemon, Winged Daemon, Daemonoligist, Dark Slayer (level 3 dark rider).
+	Use gameplay-06 music and drums.ogg as drum beat.
+	Started adding pictures to story.
+	And a long list of bug-fixing and balancing changes.
+
+v. 0.4.1: New scenario "A Painful Betrayal"
+	Rebalanced Holibars and Gendarmes (renamed Coutilliers) to give them some niche uses.
+	Reduced damage of Cataphracts to something sane.
+	Reduced XP requirement of Dwarvish Alchemist to something achievable.
+	New images for Dwarvish Alchemist, Dwarvish Prince and Dwarvish Battle Prince.
+	Dwarvish Alchemist can advance to Dwarvish Master Alchemist.
+
+v. 0.4.2: New scenario "The Last Stand"
+	Dark cultists updated to be more like their counterparts in the Extended Era.
+	Changed the AI in "An Unlikely Hero" and "The Dwarf and the Lich" so that allies remain in the area they are defending.
+	Goblins now recruitable on Medium and Hard in "More than a Match".
+	Several alterations to "Race Against Time" to reduce influence of luck.
+	After finding Golran, Dwarvish Fighters can advance to Dwarvish Runesmiths, and Dwarvish Thunderers can advance to Dwarvish Flamethrowers (both new units from XE).
+	Some rebalancing of "The Mines of Alsok", particularly limiting the number of ghosts.
+	Can now make Prince Sven leader in "Prejudice and Pride"
+
+v. 0.5.0: Bug-fixing and balancing
+	Added map of Severan and story between most scenarios.
+	Replaced story picture for "The King's Council", and story picture in "The Forgotten Front" added.
+	AI tweaks to most scenarios.
+	Limited number of dwarves joining Viktor in "The Dwarf and the Lich".
+	Dwarves now targetted far more heavily in "The Mines of Alsok". Other two sides will now join Zharagorn if they start to lose (but doesn't seem to happen).
+	Ghosts replaced by vampire bats in "The Mines of Alsok" as they are just too powerful underground.
+	Bhargeest's forces now arrive in turn 3 in "Prejudice and Pride".
+	Made "A Painful Betrayal" easier, and fixes bug that allowed Woses to be recalled later.
+	Deuterus can now attack on turn he is unstoned like he was supposed to.
+	Swapped enemies guarding passes in "The Last Stand" so that they reach Thorben at roughly the same time.
+	Closing story added to end of chapter two.
+
+v. 0.5.2: (v. 0.5.1 skipped owing to numbering issues with Wesnoth 1.3.x version)
+	New scenario "A Strange Alliance" (Temporarily the next campaign for both forks from "The Last Stand" until other branch is done.)
+	Workaround implemented for "Race Against Time" which deletes units on recall list at end of scenario.
+	AMLAs given to Mounted Lord.
+
+v. 0.5.3: New scenario "The Silent Siege"
+	AMLAs given to Dwarvish Prince.
+	Number of attacks of Dwarvish Flamethrower reduced, replaced with marksman ability.
+	Further rebalancing to "The Mines of Alsok" means that bandits and undead now actually do side with Zharagorn.
+	Units on recall list now lost in "The Mines of Alsok" (same workaround)
+	Fixed bug that sometimes allowed dwarves to be recruited in "A Painful Betrayal" and "A Strange Alliance"
+
+v. 0.5.4: New scenario "Saurian Swamp", now fork from "The Last Stand".
+	Difficulty increased in "The Last Stand".
+	Some typos in dialogue corrected.
+
+v. 0.6.0: Bug-fixing and balancing
+	Added travel dots to map between scenarios.
+	Given AMLAs to Great Druid.
+	Changed Great Druid entangle attack from four weak attacks to two strong attacks.
+	Rune Sword in "The Forgotten Front" is now magical.
+	Pre-scenario story added to "The Dwarf and the Lich", now that I know how to do it.
+	Winged Deamon's alignment changed from chaotic to neutral, like what I originally planned.
+	Increase the Dwarvish Runesmith's XP requirement, as the (for some reason, mainline) Dwarvish Runemaster is far too powerful.
+	Adapted The Silent Siege so that starting position depends on which scenario you did last.
+	Added interlogue after final scenario.
+
+v. 0.7.0-alpha: Ported to Wesnoth 1.4
+	Broken map links resolved.
+	Names restored in first scenario.
+	Hubert's traits changed to loyal and fearless.
+
+v. 0.7.0-alpha2: Changed recruitment parameters so the Sir Denevan recruits properly in second scenario.
+	Restored names in second and third scenarios.
+	Corrected broken map link in The King's Council.
+
+v. 0.7.0-alpha3: Fixed bug that prevented finishing The Dwarf and the Lich
+	Fixed bug that stopped some dwarves being recalled in this scenario. (Did you know there was a bug there? Me neither.)
+
+v. 0.7.0-alpha4: Fixed bug where a unit falling into lava in Race Against Time causes damage to everyone.
+	Corrected terrain conversion so that Bhargeest gets a keep in Race Against Time.
+	Corrected terrain reference in The Mines of Alsok so that bridges appear.
+
+v. 0.7.0-alpha5: Corrected all remaining keep conversions (hopefully)
+	Reduced drake aggression and dark forces in Prejudice and Pride, as revised AI now made this level insanely hard.
+
+v. 0.7.0-beta: Final user_description fields fixed.
+	Changed drums.ogg to take advantage of Wesnoth 1.4's proper music looping.
+
+v. 0.7.1-beta2: New scenario: "The Phantom Guard"
+	Hubert's traits changed to loyal,fearless
+	Player now starts with extra footpad in "An Unlikely Hero"
+	Beefed up Sir Denevan's in "More Than a Match" (so that he can say he's getting the upper hand with some credibility), and the orcs (to be a tougher obstacle now that there is more time)
+	Increased number of units to defeat to 20 in "A Test of Valour"
+	Generally increased the amount of gold available in most scenarios through higher turn limits.
+	Better character icon, at last.
+	Changed Deuterus's Faerie Fair to arcane.
+	Increased Deuterus's XP requirement for AMLAs, now that he ubernerfs undead.
+	Start making use of new music tracks.
+
+v. 0.7.1-beta3: Major changes to objectives and gameplay in "Beneath Enemy Lines", mainly aimed at bringing the level-ups in line with other scenarios.
+	Unit that picks up holy amulet now recalled in all future scenarios and gets a character marker.
+	Tweaks to The Front Line to ensure that AI v AI battles will probably go they way they are intended to.
+	Fix some broken image links.
+	Mal-Margheera now gets to recruit undead in "The Dwarf and the Lich". However, after 4-8 turns, charges recklessly forward to be easy target for Deuterus.
+	Now reusing gameplay06 and nr-sad, accessed in Unstoppable Legion Extras pack.
+
+v. 0.7.1-beta4: Restored animations to Prince Sven's ranged atack.
+	Fixed bug that causes crash in "The Phantom Guard" (I hope)
+	Made daemons more powerful and reduced number (to avoid excessive XP milking in Race Against Time)
+	Altered map in "The Mines of Alsok" so that both bandits and undead are a threat.
+
+v. 0.7.1-beta5: Restored animations to Prince Sven's ranged atack.
+	More balancing to "The Mines of Alsok".
+	Changed the rules of "Prejudice and Pride" to hopefully something more tactical.
+	Music playlists now overhauled up to and including "The Last Stand".
+
+Known issues:
+
+Elder Woses don't seem to start invisible like they should.
+Need image for Dwarvish Master Alchemist.
+Need to deal with possibility of baddies being killed prematurely.
+Bhargeest sometimes doesn't recruit in Prejudice and Pride.
+Saurian Swamp branch seems to be harder than the Strange Alliance branch.
+More elegant solution needed to current workaround in The Dwarf and the Lich.
+Need to find way way of displaying keeps at right time in The Last Stand without crashing the game.
+AI now makes first stage of Prejudice and Pride hard.
+A Strange Alliance and Saurian Swamp need to be more like recovery scenarios to make up for earlier killer scenarios.
+Too easy for sentries to escape in the Silent Siege.
+Could make more use of level 0 units.
+
+Playtested in Wesnoth 1.2.8
+Testing for 1.4 in progress.
